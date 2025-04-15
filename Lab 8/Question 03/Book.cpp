@@ -4,8 +4,9 @@ using namespace std;
 
 
 	Book::Book(string t, string a, string I) : title(t), author(a), ISBN(I){}
-		
-	string Book::getTile(){
+	Book::Book() {}
+	
+	string Book::getTitle(){
 		return title;
 	}
 	string Book::getAuthor(){
@@ -14,6 +15,18 @@ using namespace std;
 	string Book::getISBN(){
 		return ISBN;
 	}
+	
+
+		
+		void Library::addBook(){
+				cout << "Adding the Book..." << endl;
+			}
+			void Library::removeBook(){
+				cout << "Removing Book..." << endl; 
+			}
+			void Library::searchBook(){
+				cout << "Searching Book" << endl;
+			}
 
 
 
