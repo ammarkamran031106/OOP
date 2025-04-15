@@ -11,11 +11,21 @@ class Book{
 	
 	public:
 		Book(string t, string a, string I);
+		Book();
 		
-		string getTile();
+		string getTitle();
 		string getAuthor();
 		string getISBN();
 };
 
-#endif
+	class Library{
+		private:
+		Book books[10];
+		
+		public:
+			void addBook();
+			void removeBook();
+			void searchBook();
+	};
 
+#endif
