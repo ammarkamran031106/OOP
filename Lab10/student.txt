@@ -1,0 +1,6 @@
+23 ammar 3
+24 kamran 2
+25 ali 2.5
+26 mutahir 3.5
+27 burair 4
+29 maarij 2.5
